@@ -115,9 +115,11 @@
   width: 100%;
   background: #fff;
   padding: 0px 20px 20px;
+  min-height: 500px;
 }
 .myaccount .myaccount-right ul{
     line-height: 48px;
+    border-bottom: 1px solid #eeeeee;
 }
 .myaccount .myaccount-right ul li{
     width:20%;
@@ -125,6 +127,8 @@
     text-align: center;
     font-size: 16px;
     border-bottom: 1px solid #eeeeee;
+    position: relative;
+    bottom: -1px;
 }
 .myaccount .myaccount-right.line-7 ul li {
   width: 14.2%;
@@ -180,7 +184,9 @@
     border-radius: 0 0 3px 3px;
     padding-left: 10px;
 }
-
+.myaccount .myaccount-right .forms .ollist ol li{
+    width: 100%;
+}
 .forms .ollist ol li:hover{
     color:#f75363;
 }
@@ -242,7 +248,7 @@
     line-height: 35px;
 }
 .myaccount .myaccount-right ol li{
-    width:100%;
+    width:50%;
     float: left;
 }
 .myaccount .myaccount-right ol li i{
@@ -258,6 +264,12 @@
 .commonTable th{
     background:#eef3f7;
     padding: 16px 5px;
+    font-size: 14px;
+    color: #969da3;
+}
+.commonTable td{
+    color: #666;
+    font-weight: bold;
 }
 .commonTable th,.commonTable td{
     text-align: center;

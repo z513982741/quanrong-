@@ -79,7 +79,7 @@
 					<li class="active"><a href="">首    页</a></li>
 					<li><a href="">我要借款</a></li>
 					<li><a href="">我要借款</a></li>
-					<li><a href="">我的账户</a></li>
+					<li class="active"><a href="">我的账户</a></li>
 					<li><a href="">关于我们</a></li>
 					<li><a href="">注册/登录</a></li>
 				</ul>
@@ -107,9 +107,9 @@
 						<div class="active">
 							<h4><i class="icon icon-investment"></i>投资管理 <i class="icon icon-arrow"></i></h4>
 							<ul>
-								<li class="is-open"><a href="myBid.html">我的投标</a></li>
-								<li><a href="">我的体验标</a></li>
-								<li><a href="">我关注的标</a></li>
+								<li class="is-open"><a href="bid.html">我的投标</a></li>
+								<li><a href="bidMyexperience.html">我的体验标</a></li>
+								<li><a href="bidCare">我关注的标</a></li>
 								<li><a href="">投资统计</a></li>
 							</ul>
 						</div>
@@ -140,22 +140,22 @@
 					<!--右边 内容容-->
 					<div class="myaccount-right line-7">
 						<ul class="float-clearfix">
-							<li><a href="borrow.html">投标中的借款</a></li>
-							<li class="on"><a href="borrowSuccess.html">回收中的借款</a></li>
-							<li><a href="borrowGathering.html">未收款明细帐</a></li>
-							<li><a href="borrowGathering-2.html">已收款明细帐</a></li>
-							<li><a href="borrowBefore.html">转让前收款明细</a></li>
-							<li><a href="borrowLenddetail.html">借出明细帐</a></li>
-							<li><a href="borrowSuccess-2.html">回收完的借款</a></li>
+							<li><a href="bid.html">投标中的借款</a></li>
+							<li><a href="bidSuccess.html">回收中的借款</a></li>
+							<li><a href="bidGathering.html">未收款明细帐</a></li>
+							<li><a href="bidGathering-2.html">已收款明细帐</a></li>
+							<li class="on"><a href="bidBefore.html">转让前收款明细</a></li>
+							<li><a href="bidLenddetail.html">借出明细帐</a></li>
+							<li><a href="bidSuccess-2.html">回收完的借款</a></li>
 						</ul>
 						<div class="forms float-clearfix">
 							
 							<div class="time ml0">
-								<span>标题：</span>
+								<span>关键词：</span>
 								<em class="bgNo"><input type="text"/></em>
 							</div>
 							<div class="time">
-								<span>发布时间：</span>
+								<span>应收日期：</span>
 								<em><input placeholder="开始时间" type="text" onFocus="calendar.show(this);"/></em>
 								<span>至</span>
 								<em><input placeholder="结束时间" value="" type="text" onFocus="calendar.show(this);"/></em>
@@ -165,15 +165,16 @@
 						
 						<table cellpadding="0" cellspacing="0" border="0" class="commonTable">
 							<tr>
+								<th>借款标题</th>
+								<th>应收日期</th>
 								<th>借款者</th>
-								<th>标题</th>
-								<th>借款类型</th>
-								<th>借款者等级</th>
-								<th>年利率</th>
-								<th>期限</th>
-								<th>投资金额</th>
-								<th>已收本息</th>
-								<th>协议书</th>
+								<th>第几期/总期数</th>
+								<th>应收总额</th>
+								<th>应收本金</th>
+								<th>应收利息</th>
+								<th>逾期罚息</th>
+								<th>逾期天数</th>
+								<th>状态</th>
 							</tr>
 			                <tr>
 			                    <td>&nbsp;</td>
@@ -185,30 +186,10 @@
 			                    <td>&nbsp;</td>
 			                    <td>&nbsp;</td>
 			                    <td>&nbsp;</td>
-			                </tr>
-			                <tr>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
 			                    <td>&nbsp;</td>
 			                </tr>
 			                <tr>
 			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                    <td>&nbsp;</td>
-			                </tr>
-			                <tr>
 			                    <td>&nbsp;</td>
 			                    <td>&nbsp;</td>
 			                    <td>&nbsp;</td>
@@ -229,6 +210,32 @@
 			                    <td>&nbsp;</td>
 			                    <td>&nbsp;</td>
 			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                </tr>
+			                <tr>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                </tr>
+			                <tr>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                </tr>
 			                </tr>
 			            </table>
 			            <div class="page">

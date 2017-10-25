@@ -79,7 +79,7 @@
 					<li class="active"><a href="">首    页</a></li>
 					<li><a href="">我要借款</a></li>
 					<li><a href="">我要借款</a></li>
-					<li><a href="">我的账户</a></li>
+					<li class="active"><a href="">我的账户</a></li>
 					<li><a href="">关于我们</a></li>
 					<li><a href="">注册/登录</a></li>
 				</ul>
@@ -93,10 +93,10 @@
 				<div class="myaccount float-clearfix">
 					<!--左边导航栏-->
 					<div class="myaccount-left">
-						<div class="active">
+						<div>
 							<h4><i class="icon icon-account"></i> 管理中心 <i class="icon icon-arrow"></i></h4>
 							<ul>
-								<li class="is-open"><a href="">账户管理</a></li>
+								<li><a href="">账户管理</a></li>
 								<li><a href="">资金情况</a></li>
 								<li><a href="">认证中心</a></li>
 								<li><a href="">资料审核</a></li>
@@ -104,11 +104,11 @@
 							</ul>
 						</div>
 
-						<div class="">
+						<div class="active">
 							<h4><i class="icon icon-investment"></i>投资管理 <i class="icon icon-arrow"></i></h4>
 							<ul>
-								<li><a href="myBid.html">我的投标</a></li>
-								<li><a href="">我的体验标</a></li>
+								<li class="is-open"><a href="bid.html">我的投标</a></li>
+								<li><a href="bidMyexperience.html">我的体验标</a></li>
 								<li><a href="bidCare">我关注的标</a></li>
 								<li><a href="">投资统计</a></li>
 							</ul>
@@ -138,128 +138,103 @@
 
 
 					<!--右边 内容容-->
-					<div class="myaccount-right">
+					<div class="myaccount-right line-7">
 						<ul class="float-clearfix">
-							<li><a href="">投资统计</a></li>
-							<li><a href="">充值</a></li>
-							<li><a href="">提现</a></li>
-							<li><a href="">银行账号</a></li>
-							<li class="on"><a href="">资金纪录</a></li>
+							<li><a href="bid.html">投标中的借款</a></li>
+							<li><a href="bidSuccess.html">回收中的借款</a></li>
+							<li><a href="bidGathering.html">未收款明细帐</a></li>
+							<li><a href="bidGathering-2.html">已收款明细帐</a></li>
+							<li><a href="bidBefore.html">转让前收款明细</a></li>
+							<li><a href="bidLenddetail.html">借出明细帐</a></li>
+							<li class="on"><a href="bidSuccess-2.html">回收完的借款</a></li>
 						</ul>
 						<div class="forms float-clearfix">
-							<div class="ollist">
-							<em>按月还款</em>
-								<ol>
-									<li>按月还款</li>
-									<li>按季还款</li>
-									<li>到期还款本息</li>
-									<li>按月还息到期还本</li>
-								</ol>
+							
+							<div class="time ml0">
+								<span>标题：</span>
+								<em class="bgNo"><input type="text"/></em>
 							</div>
 							<div class="time">
-								<span>记录时间：</span>
+								<span>应收日期：</span>
 								<em><input placeholder="开始时间" type="text" onFocus="calendar.show(this);"/></em>
 								<span>至</span>
 								<em><input placeholder="结束时间" value="" type="text" onFocus="calendar.show(this);"/></em>
 							</div>
 							<button>搜索</button>
 						</div>
-						<ol class="float-clearfix">
-							<li>资产总额：<i>5.041.65元</i></li>
-							<li>可用余额：<i>5.041.65元</i></li>
-							<li>冻结资金：<i>5.041.65元</i></li>
-							<li>待收金额：<i>5.041.65元</i></li>
-						</ol>
+						
 						<table cellpadding="0" cellspacing="0" border="0" class="commonTable">
 							<tr>
-								<th>类型</th>
-								<th>存入</th>
-								<th>支出</th>
-								<th>冻结</th>
-								<th>待收金额</th>
-								<th>记录时间</th>
-								<th width="15%">备注信息</th>
+								<th>借款者</th>
+								<th>标题</th>
+								<th>借款类型<th>
+								<th>借款者等级</th>
+								<th>年利率</th>
+								<th>期限</th>
+								<th>投资金额</th>
+								<th>已收本息</th>
+								<th>协议书</th>
 							</tr>
 			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
 			                </tr>
 			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
 			                </tr>
 			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
 			                </tr>
 			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
 			                </tr>
 			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
+			                    <td>&nbsp;</td>
 			                </tr>
-			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
-			                </tr>
-			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
-			                </tr>
-			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
-			                </tr>
-			                <tr>
-			                    <td>红包奖励</td>
-			                    <td>1000.80</td>
-			                    <td>8888.99</td>
-			                    <td>8888.88</td>
-			                    <td>0.00</td>
-			                    <td>8888.88</td>
-			                    <td>注册会员，系统赠送红包0元</td>
 			                </tr>
 			            </table>
 			            <div class="page">
