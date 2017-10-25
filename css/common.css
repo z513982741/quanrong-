@@ -75,6 +75,12 @@ a:active {
 .float-clearfix {
   clear: both !important;
 }
+a,button {
+  transition:.5s; 
+  -moz-transition:.5s; 
+  -webkit-transition:.5s; 
+  -o-transition:.5s;
+}
 .float-clearfix:after {
   display: block;
   content: "";

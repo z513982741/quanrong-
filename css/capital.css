@@ -225,13 +225,18 @@
     width:100px;
     height:33px;
     border-radius: 33px;
-    background:#f75363;
-    color:#fff;
+    background:#fff;
+    color:#f75363;
     float: left;
     margin-left: 60px;
     border: 0;
     margin-top: 2px;
     cursor: pointer;
+    border: 1px solid #f75363;
+}
+.forms button:hover{
+    background:#f75363;
+    color:#fff;
 }
 .myaccount .myaccount-right ol{
     line-height: 35px;
