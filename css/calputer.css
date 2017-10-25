@@ -1,0 +1,115 @@
+@charset "utf-8";
+.centre{
+    background: #f7f7f7;
+    padding:40px 0 100px;
+    font-size: 14px;
+}
+.incentre{
+    width:1200px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 20px 65px;
+}
+.incentre h3{
+    border-bottom: 1px solid #eeeeee;
+}
+.incentre h3 span{
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 45px;
+    border-bottom: 2px solid #f75363;
+    position: relative;
+    top:1px;
+    color:#f75363;
+    font-size: 16px;
+}
+form{
+    width:460px;
+    margin:0 auto;
+    padding-top:42px;
+}
+form ul>li{
+    padding: 6px 0;
+    position: relative;
+}
+form ul>li>label{
+    width:145px;
+    display:block;
+    line-height: 40px;
+    float: left;
+}
+form li .inputOut{
+    width:305px;
+    height:40px;
+    line-height: 40px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding:0 10px;
+    text-align: right;
+    float: left;
+}
+form li .inputOut input{
+    width: 255px;
+    height: 38px;
+    float: left;
+    border: 0;
+    outline: none;
+}
+form li .ollist{
+    display:block;
+    width:305px;
+    line-height: 40px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    padding-left: 10px;
+    background:#fff url(../images/icon/icon_07.png) no-repeat 280px 18px;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+    left: 145px;
+}
+form li .ollist ol{
+    width:290px;
+    line-height: 40px;
+    position: relative;
+    margin-top: -40px;
+    background:#fff url(../images/icon/icon_07.png) no-repeat 270px 18px;
+    display: none;
+}
+form li .ollist ol li:hover{
+    color:#f75363;
+}
+form button{
+    width:255px;
+    height:40px;
+    border: 1px solid #f75363;
+    border-radius: 3px;
+    margin-top: 55px;
+    background: #fff;
+    margin-left: 145px;
+    color:#f75363;
+    font-size: 18px;
+    cursor: pointer;
+}
+form button:hover{
+    background: #f75363;
+    color:#fff;
+}
+.incentre p{
+    margin-top: 30px;
+    line-height: 50px; 
+}
+.commonTable{
+    width:100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+.commonTable th{
+    background:#eef3f7;
+}
+.commonTable th,.commonTable td{
+    text-align: center;
+    line-height: 50px;
+}

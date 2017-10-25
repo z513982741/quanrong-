@@ -1,0 +1,179 @@
+@charset "utf-8";
+.centre{
+    font-size: 14px;
+}
+.centreTop{
+    width:1200px;
+    margin:22px auto;
+    background:#fff1e5;
+    padding: 15px 20px;
+    color:#666;
+    line-height: 28px;
+}
+.centreTop i{
+    color:#ff7802;
+    font-size: 16px;
+}
+form{
+    width:1200px;
+    margin:35px auto 170px;
+    color:#666;
+}
+form ul>li{
+    padding: 6px 0;
+    position: relative;
+}
+form ul>li>label{
+    width:192px;
+    display:block;
+    line-height: 40px;
+    float: left;
+}
+form i{
+    display:block;
+    width:16px;
+    height:16px;
+    border: 1px solid #b3b3b3;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+    float: left;
+    margin-top: 12px;
+}
+form span{
+    display: inline-block;
+    line-height: 40px;
+    float: left;
+}
+form i input[type="checkbox"]{
+    opacity: 0;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+form li .inputOut{
+    width:305px;
+    height:40px;
+    line-height: 40px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding-left: 10px;
+    float: left;
+}
+form li .inputOut input{
+    width:266px;
+    height:38px;
+    margin-right: 5px;
+    float: left;
+    border:0;
+    outline: none;
+}
+form li .ollist{
+    display:block;
+    width:305px;
+    line-height: 40px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    padding-left: 10px;
+    background:#fff url(../images/icon/icon_07.png) no-repeat 280px 18px;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+    left: 192px;
+}
+form li .ollist ol{
+    width:290px;
+    line-height: 40px;
+    position: relative;
+    margin-top: -40px;
+    background:#fff url(../images/icon/icon_07.png) no-repeat 270px 18px;
+    display: none;
+}
+form li .ollist ol li:hover{
+    color:#f75363;
+}
+form li p{
+    display: inline-block;
+    float: left;
+    margin-left:192px;
+}
+form li ol.lilist{
+    display: inline-block;
+    float: left;
+}
+form li ol.lilist li{
+    line-height: 40px;
+    background: url(../images/icon/icon_09.png) no-repeat 0px 19px;
+    padding: 6px 0 6px 25px;
+    cursor: pointer;
+}
+form li ol.lilist li.on{
+    background: url(../images/icon/icon_08.png) no-repeat 0px 19px;
+}
+form li ol.lilist li div{
+    display: inline-block;
+    width:143px;
+    height:40px;
+    line-height: 40px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+form li ol.lilist li div input{
+    width:100px;
+    height:38px;
+    margin-right: 5px;
+    float: left;
+    border:0;
+    outline: none;
+}
+form li textarea{
+    width:640px;
+    height:110px;
+    padding: 10px;
+    border: 1px solid #bfbfbf;
+    resize: none;
+    border-radius: 3px;
+}
+form li .verify{
+    display: inline-block;
+    float: left;
+}
+form li .verify input{
+    display: inline-block;
+    float: left;
+    width:188px;
+    height:40px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+form li .verify .inverify{
+    display: inline-block;
+    width:117px;
+    height:39px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 10px;
+}
+form button{
+    width:275px;
+    height:40px;
+    border: 1px solid #f75363;
+    border-radius: 3px;
+    margin-top: 55px;
+    background: #fff;
+    margin-left: 192px;
+    color:#f75363;
+    font-size: 18px;
+    cursor: pointer;
+}
+form button:hover{
+    background: #f75363;
+    color:#fff;
+}
